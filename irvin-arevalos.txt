@@ -1,23 +1,41 @@
 Link to finished codepen https://codepen.io/irvina/pen/ExmpOMB?editors=1100
 
-1. What is Semantic HTML? 
-    2. What is HTML used for? 
-    3. What is an attribute and where do we put it? 
+1. What is Semantic HTML?
+Html that is direct and easy to read 
+    2. What is HTML used for?
+    It the foundation to a website 
+    3. What is an attribute and where do we put it?
+    Tags that enclose elements 
     4. What is the h1 tag used for? How many times should I use it on a page?
+    The h1 tag is used to mark the main heading and should only be used once per page
     5. Name two tags that have required attributes
-    6. What do we put in the head of our HTML document? 
+    <div> <a> 
+    6. What do we put in the head of our HTML document?
+    The title and any nav info 
     7. What is an id? 
+    an identifier for a single element
     8. What elements can I add an id to? 
-    9. How many times can I use the same id on a page? 
+    elements of specificity
+    9. How many times can I use the same id on a page?
+    once 
     10. What is a class? 
-    11. What elements can I add a class to? 
-    12. How many times can I use the same class on a page? 
+    an identifier for a group of elements
+    11. What elements can I add a class to?
+    text, images, any other similar elements 
+    12. How many times can I use the same class on a page?
+    as many elements that coincide with it 
     13. How do I get my link to open in a new tab?
-    14. What is the alt attribute in the image tag used for? 
+    you have to anchor it to a url with a blank property
+    14. What is the alt attribute in the image tag used for?
+    Its used to give information if the image is unavailable 
     15. How do I reference an id?
+    to reference an id use the "#"
     16. What is the difference between a section and a div
-    17. What is CSS used for? 
-    18. How to we select an element? Example - every h2 on the page
+    a section contains content and div doesnt convey any meaning
+    17. What is CSS used for?
+    Css is the styling of the website 
+    18. How do we select an element? Example - every h2 on the page
+    To select every element just use it  
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
     20. How do we select classes in CSS?
     21. How do we select a p element with a single class of “human””?
