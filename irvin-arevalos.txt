@@ -2,64 +2,133 @@ Link to finished codepen https://codepen.io/irvina/pen/ExmpOMB?editors=1100
 
 1. What is Semantic HTML?
 Html that is direct and easy to read 
+    
     2. What is HTML used for?
     It the foundation to a website 
+    
     3. What is an attribute and where do we put it?
     Tags that enclose elements 
+    
     4. What is the h1 tag used for? How many times should I use it on a page?
     The h1 tag is used to mark the main heading and should only be used once per page
+    
     5. Name two tags that have required attributes
     <div> <a> 
+    
     6. What do we put in the head of our HTML document?
     The title and any nav info 
+    
     7. What is an id? 
     an identifier for a single element
+    
     8. What elements can I add an id to? 
     elements of specificity
+    
     9. How many times can I use the same id on a page?
     once 
+    
     10. What is a class? 
     an identifier for a group of elements
+    
     11. What elements can I add a class to?
     text, images, any other similar elements 
+    
     12. How many times can I use the same class on a page?
     as many elements that coincide with it 
+    
     13. How do I get my link to open in a new tab?
     you have to anchor it to a url with a blank property
+    
     14. What is the alt attribute in the image tag used for?
     Its used to give information if the image is unavailable 
+    
     15. How do I reference an id?
     to reference an id use the "#"
+    
     16. What is the difference between a section and a div
     a section contains content and div doesnt convey any meaning
+    
     17. What is CSS used for?
     Css is the styling of the website 
+    
     18. How do we select an element? Example - every h2 on the page
-    To select every element just use it  
+    To select every element just use it h2 {} * for all . for class and # for IDs
+    
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class encompasses a bunch of elements while an id is for only one. 
+    A class is good for styling multiple elements the same way and an ID would be used if a specific target would be styled differently
+    
     20. How do we select classes in CSS?
-    21. How do we select a p element with a single class of “human””?
-    22. What is a parent child selector? When would this be useful? 
+    Classe are selected with a "."
+
+    21. How do we select a p element with a single class of “human”?
+    .human p 
+    
+    22. What is a parent child selector? When would this be useful?
+    A selector that specifies and element with in a more general section or class 
+    
     23. How do you select all links within a div with the class of sidebar?
+    div .sidebar
+    
     24. What is a pseudo selector?
+    a selector that specifies a specific state like :hover
+    
     25. What do we use the change the spacing between lines?
+    line-height
+    
     26. What do we use to change the spacing between letters?
+    letter-spacing
+    
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform
+    
     28. How do I add a 1px border around my div that is dotted and black?
+    div {border: 1px dotted black;}
+    
     29. How do I select everything on the page? 
+    body{}
+    
     30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+    use the slash command crtl+/
+    
+    31. How do I find out what file I am in, when I am using the command line?
+    pwd 
+    
     32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
+    ls
+    
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+    rm, it should be used cautiously because it removes all files including the parent directory
+    which can erase alot of work 
+    
+    34. Why should I use version control?
+    It help teams keep track of their work and contribution to the project 
+    
     35. How often should I commit to github?
+    every 2o mins or so
+    
     36. What is the command we would use to push our repo up to github? 
+    git push -u origin "first-last"
+    
     37. Walk me through Lambda's git flow. 
+    The first steps are to fork and clone a project, next pull a project into git, then branch after youre in the new file, after open
+    the file with code ., then after your changes are done, its add, commit, and push, finally ending with a pull request on github
+
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    block element can take up multiple lines while inline elements are restricted with a single line and its margins/padding
+    
     2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    It sits on its own plane not affected by anything else
+    
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+    You could use the overflow attribute and set it to auto
+    
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    block elements are p, h1, header. Inline elements are span, anchor. Inline-block elements are list elements like ul
+    
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+    The box model is how content is displayed within the confines of it respective space. This includes all relative margins, borders, and padding. 
+    We can control and confine elements into their space by specifying all attributes of the space by adjusting the height and width of their respective elements. 
